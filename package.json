@@ -1,0 +1,20 @@
+{
+  "name": "cryptcoin",
+  "version": "1.0.0",
+  "description": "A Command Line Interface for cryptocurrency prices",
+  "main": "main.js",
+  "bin": "./bin/cryptcoin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oyin Olatunji",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "colors": "^1.4.0",
+    "commander": "^7.1.0",
+    "configstore": "^5.0.1",
+    "fetch": "^1.1.0",
+    "inquirer": "^8.0.0"
+  }
+}
